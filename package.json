@@ -24,7 +24,10 @@
     "access": "public"
   },
   "dependencies": {
-    "@edx/frontend-platform": "^5.0.0",
+    "@edx/brand": "git+https://gitlab+deploy-token-3876825:gldt-n6s46wW4Y3oYJ6Lzuab9@gitlab.com/abstract-germany/uds/mfe/brand-openedx.git#development",
+    "@edx/frontend-component-footer": "git+https://gitlab+deploy-token-3876590:gldt-Qh-jCYfiTzy8MxeJFx1K@gitlab.com/abstract-germany/uds/mfe/frontend-component-footer.git#development",
+    "@edx/frontend-component-header": "git+https://gitlab+deploy-token-3876575:gldt-bebWTnp2pmhizRP-cu6M@gitlab.com/abstract-germany/uds/mfe/frontend-component-header.git#development",
+    "@edx/frontend-platform": "4.6.1",
     "@edx/paragon": "^20.44.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
@@ -56,8 +59,8 @@
     "react-intl": "^5.20.9",
     "react-pdf": "^5.5.0",
     "react-redux": "^7.2.9",
-    "react-router": "^6.0.0",
-    "react-router-dom": "^6.0.0",
+    "react-router": "5.3.4",
+    "react-router-dom": "5.3.4",
     "react-router-redux": "^5.0.0-alpha.9",
     "redux": "4.2.1",
     "redux-beacon": "^2.1.0",
